@@ -12,6 +12,16 @@ Disconnect detection works via delta-diff: every time any player joins and trigg
 
 ---
 
+> [!IMPORTANT]
+> **This repository has moved.** Active development (S³-integrated) continues at the monorepo:
+> **[sqaudjs-slackers-suite](https://github.com/mikebjoyce/squadjs-slackers-suite)**
+>
+> The `legacy` branch here is the **pre-S³** line — maintained for users who don't run S³.
+> The `main` branch (and any S³-integration branch) is superseded by the monorepo copy.
+> For new installations, use the monorepo's [install script](https://github.com/mikebjoyce/squadjs-slackers-suite) instead.
+
+---
+
 ## Core Features
 
 * **Sub-2s Verified Join Swaps**: Uses Log-Driven triggering + One-Hit & Verify to move players within ~1s of joining, verified against a fresh RCON poll.
